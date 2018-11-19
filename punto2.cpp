@@ -17,7 +17,6 @@ int main(){
 	double v=K/(Cp*p); //Coeficiente de difusion
 	T=100.; //Temperatura
 
-
 	dt=0.7*(C*p*dx*dx)/(2*K);	
 	dx=0.03;
 	
