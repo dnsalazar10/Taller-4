@@ -5,8 +5,7 @@
 #include <fstream>
 
 using namespace std;
-  
-float x,y,x0,y0,h;
+
 
 // Una ecuacion diferencial simple "dy/dx = (x - y)/2" 
 float dydx(float x, float y) 
@@ -45,7 +44,7 @@ float rungeK(float x0, float y0, float x, float h)
 int main() 
 { 
     float x0 = 0, y = 1, x = 2, h = 0.2; 
-    printf("\nEl valor de Y en X es: %f", 
+    printf("\nEl valor de Y en X es: %f\n", 
             rungeK(x0, y, x, h)); 
     return 0; 
 } 
