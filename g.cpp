@@ -16,6 +16,7 @@
   
  int main(int argc, char *argv[]) { 
   
+ 
        allegro_init();    // init Allegro 
        install_keyboard();  // setup allegro keyboard 
   
