@@ -11,7 +11,7 @@ data=np.loadtxt('dat.txt',delimiter=' ')
 g=10
 v0=300
 theta0=45
-x = t*data[0,1]
+x = t*data[0,1] #data[0,1] (la columna 2) corresponde a los datos de Velocidad inicial en X
 y = v0*((np.sin(45))*t)-((1/2)*g*t**2)
 x1 = t*data[1,1]
 y1 = v0*((np.sin(10))*t)-((1/2)*g*t**2)
@@ -46,6 +46,6 @@ title('Trayectorias de proyectiles')
 xlabel('Posicion en X')
 ylabel('Posicion en Y')
 plt.legend()
-plt.show()
+
 
 
