@@ -28,13 +28,14 @@ y6 = v0*((np.sin(20))*t)-((1/2)*g*t**2)
 x7 = t*data[7,1]
 y7 = v0*((np.sin(20))*t)-((1/2)*g*t**2)
 
-
+#Grafica de la trayectoria a 45°
 plt.plot(x,y,'r--')
 title('Trayectoria a 45°')
 xlabel('Posicion en X')
 ylabel('Posicion en Y')
 plt.legend()
 
+#Grafica de las trayectorias de 10° a 70°
 plt.plot(x1,y1,"g",label="Trayect a 10°")
 plt.plot(x2,y2,"b",label="Trayect a 20°")
 plt.plot(x3,y3,"m",label="Trayect a 30°")
